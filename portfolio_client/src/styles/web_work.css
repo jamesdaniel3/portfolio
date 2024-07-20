@@ -1,0 +1,14 @@
+.web-project {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.web-project .project-image {
+  height: 25%;
+  width: 40%;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-right: 20px;
+}

@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./routes/Home.jsx";
 
+import "../src/styles/common.css";
+
 const App = () => {
   return (
     <>

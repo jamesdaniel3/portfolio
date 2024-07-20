@@ -1,0 +1,14 @@
+body {
+  background-color: #1e1e1e;
+  font-family: "Courier New", Courier, monospace;
+  color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.page-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
