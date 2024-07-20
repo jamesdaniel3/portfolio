@@ -1,8 +1,19 @@
+import WebWork from "../components/WebWork";
+
 export default function Web() {
   return (
     <>
       <div className="page-content web-page-content">
-        <p> This is the web page</p>
+        <p>
+          {" "}
+          I got my first experience with webdev in January of 2023, when I took
+          a class called Advnaced Software Development where we spent the
+          semester building a website. Since then, I have experimented with
+          mulitple framworks (Django, React, Rails), hosting solutions (Heroku,
+          AWS, Render), and languages(JS, TS, Python, Ruby). Below are a couple
+          examples of those experiments.
+        </p>
+        <WebWork />
       </div>
     </>
   );
