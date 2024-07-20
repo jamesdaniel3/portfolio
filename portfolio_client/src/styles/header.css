@@ -1,0 +1,61 @@
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px 0px;
+}
+
+.header .header-section {
+  flex-basis: 33%;
+}
+
+.main-page-links .navbar-link {
+  margin-right: 30px;
+}
+
+.header .header-title {
+  display: flex;
+  justify-content: center;
+}
+
+.header-title .title {
+  font-size: 20px;
+}
+
+.header-title .title:hover {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.header .social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.image {
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+}
+
+.image.github-image,
+.image.contact-image {
+  filter: invert(100%);
+}
+
+.social-links .image {
+  transition: transform 0.3s ease;
+}
+
+.social-links .image:hover {
+  transform: scale(1.1);
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #f0f0f0;
+  font-size: 18px;
+}

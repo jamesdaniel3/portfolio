@@ -14,16 +14,6 @@ export default function Home() {
             of my recent projects below and feel free to contact me.
           </p>
         </div>
-        <div className="work-section web">
-          <h1>Web Sites</h1>
-          <WebWork />
-        </div>
-        <div className="work-section cli">
-          <h1>Command Line</h1>
-        </div>
-        <div className="work-section upcoming">
-          <h1>Upcoming Projects</h1>
-        </div>
       </div>
     </>
   );
