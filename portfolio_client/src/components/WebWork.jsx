@@ -31,27 +31,21 @@ export default function WebWork() {
           <div className="project-info">
             <h3 className="project-name">{project.name}</h3>
             <p>{project.description}</p>
-            <p>
-              <strong>Github:</strong>{" "}
-              <a
-                href={project.github_link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {project.github_link}
-              </a>
-            </p>
+            <a
+              href={project.github_link}
+              target="_blank"
+              className="project-link repo-link"
+            >
+              <strong>View the code</strong>{" "}
+            </a>
             {project.live_link && (
-              <p>
-                <strong>Live Link:</strong>{" "}
-                <a
-                  href={project.live_link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {project.live_link}
-                </a>
-              </p>
+              <a
+                href={project.live_link}
+                target="_blank"
+                className="project-link live-link"
+              >
+                <strong>See the site live</strong>{" "}
+              </a>
             )}
           </div>
           <img src={project.display_image} className="project-image"></img>
