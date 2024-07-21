@@ -28,9 +28,10 @@ export default function WebWork() {
     <>
       {projects.map((project, index) => (
         <div className="web-project" key={index}>
+          <img src={project.display_image} className="project-image"></img>
           <div className="project-info">
             <h3 className="project-name">{project.name}</h3>
-            <p>{project.description}</p>
+            <p className="project-description">{project.description}</p>
             <a
               href={project.github_link}
               target="_blank"
@@ -48,7 +49,6 @@ export default function WebWork() {
               </a>
             )}
           </div>
-          <img src={project.display_image} className="project-image"></img>
         </div>
       ))}
     </>

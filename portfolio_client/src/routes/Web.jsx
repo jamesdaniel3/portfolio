@@ -4,7 +4,7 @@ export default function Web() {
   return (
     <>
       <div className="page-content web-page-content">
-        <p>
+        <p style={{ margin: "0" }}>
           {" "}
           I got my first experience with webdev in January of 2023, when I took
           a class called Advnaced Software Development where we spent the
