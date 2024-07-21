@@ -13,6 +13,10 @@ body {
   line-height: 1.5;
 }
 
+html {
+  font-size: 16px;
+}
+
 h1 {
   text-align: center;
 }
@@ -20,4 +24,10 @@ h1 {
 .page-content {
   max-width: 1200px;
   margin: 50px auto 0;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
 }
