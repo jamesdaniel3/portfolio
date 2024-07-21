@@ -9,6 +9,7 @@ import Progress from "./routes/Progress.jsx";
 
 import "../src/styles/common.css";
 import { Header } from "./components/Header.jsx";
+import { MobileHeader } from "./components/Header.jsx";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
+      <MobileHeader />
       <Header />
       <App />
     </BrowserRouter>
