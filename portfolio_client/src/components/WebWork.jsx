@@ -29,7 +29,7 @@ export default function WebWork() {
       {projects.map((project, index) => (
         <div className="web-project" key={index}>
           <div className="project-info">
-            <h3>{project.name}</h3>
+            <h3 className="project-name">{project.name}</h3>
             <p>{project.description}</p>
             <p>
               <strong>Github:</strong>{" "}
