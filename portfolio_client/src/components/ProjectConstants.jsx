@@ -9,7 +9,7 @@ export const web_projects = [
     id: "spotify_social",
     name: "Spotify Social",
     description:
-      "This project was created to practice using React, APIs, express, and firebase. After a user logs in to Spotify, they can view information about their listening habits, as well as message other users. ",
+      "This project was created to practice using React, APIs, Express.js, and Firebase. After a user logs in to Spotify, they can view information about their listening habits, as well as message other users.",
     github_link: "https://github.com/jamesdaniel3/spotify-social",
     display_image: spotifySocialImage,
   },
@@ -17,7 +17,7 @@ export const web_projects = [
     id: "hazing_reporter",
     name: "UVA Hazing Reporter",
     description:
-      "This project was my first experience with web-development, where I learned to use Django, Heroku, and PostgreSQl, among other things. I built it with a team for my Advanced Softwhere Development course and it is a take on a hazing whistleblower system for the University of Virginia.",
+      "This project was my first experience with web-development, where I learned to use Django, Heroku, and PostgreSQl, among other things. I built it with a team for my Advanced Software Development course and it is a take on a hazing whistleblower system for the University of Virginia.",
     github_link: "https://github.com/jamesdaniel3/hazing-reporter-simulator",
     live_link: "https://hazing-reporter-simulator-4777047cf362.herokuapp.com/",
     display_image: hazingReportImage,
@@ -48,7 +48,7 @@ export const in_the_works_projects = [
     id: "programming_language",
     name: "My First Programming Language",
     description:
-      "The project at the top of my programming bucket list for the last year or so has been to one day make my own programming language. One thing that was preventing me from getting started was the idea that I couldn't find a particular niche that I thought needed satisfying, leaving me without a reason to built a language. However, I realized that I will need to be practiced when I do finally find a niche for my future programming language, so I am making my first attempt now. This language is a simple, interpreted language built with C. My current, arbitrary goal is to build enough functionality that I could write merge sort in it.",
+      "The project at the top of my programming bucket list for the last year or so has been to one day make my own programming language. One thing that was preventing me from getting started was the idea that I couldn't find a particular niche that I thought needed satisfying, leaving me without a reason to build a language. However, I realized that I will need to be practiced when I do finally find a niche for my future programming language, so I am making my first attempt now. This language is a simple, interpreted language built with C. My  goal is to build enough functionality that I can write merge sort in it.",
     github_link: "https://github.com/jamesdaniel3/my-first-language",
     display_image: programmingLanguageImage,
   },
