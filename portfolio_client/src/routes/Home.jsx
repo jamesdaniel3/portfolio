@@ -11,9 +11,8 @@ export default function Home() {
             I'm a developer with experience in fullstack development. I'm
             passionate about programming because I love solving problems and the
             practice provides ample opportunity to do so. I built this site to
-            display my work. On this page, you will find a couple of my
-            projects, but feel free to navigate the site to get a larger sample
-            of my work.
+            display my work. I have listed a project or two on each page of the
+            website, please check them out!
           </p>
         </div>
       </div>
