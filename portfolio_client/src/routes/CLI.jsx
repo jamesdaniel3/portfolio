@@ -1,3 +1,6 @@
+import ProjectContent from "../components/ProjectContent";
+import { cli_projects } from "../components/ProjectConstants";
+
 export default function CLI() {
   return (
     <>
@@ -12,6 +15,7 @@ export default function CLI() {
           line to improve the experience of our TAs and Students. They can be
           found below.{" "}
         </p>
+        <ProjectContent projects={cli_projects} />
       </div>
     </>
   );
