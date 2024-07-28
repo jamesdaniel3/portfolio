@@ -5,7 +5,8 @@ export default function CLI() {
   return (
     <>
       <div className="page-content cli-page-content">
-        <p>
+        <h3 className="page-title">Command Line Projects</h3>
+        <p className="intro-paragraph">
           {" "}
           I spend a huge portion of my time during the school year working as a
           teaching assistant for Introduction to Python and Data Structures and

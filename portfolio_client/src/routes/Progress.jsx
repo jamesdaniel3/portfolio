@@ -5,7 +5,8 @@ export default function Progress() {
   return (
     <>
       <div className="page-content progress-page-content">
-        <p>
+        <h3 className="page-title">Ongoing Projects</h3>
+        <p className="intro-paragraph">
           {" "}
           While I usually have a small side project or two ongoing, I want to
           use this page to display any big undertakings I have going on at the

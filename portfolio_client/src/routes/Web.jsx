@@ -6,7 +6,8 @@ export default function Web() {
   return (
     <>
       <div className="page-content web-page-content">
-        <p className="web-intro">
+        <h3 className="page-title">Web Projects</h3>
+        <p className="intro-paragraph">
           {" "}
           I got my first experience with webdev in January of 2023, when I took
           a class called Advnaced Software Development where we spent the
