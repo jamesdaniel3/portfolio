@@ -1,11 +1,11 @@
 import PropTypes from "prop-types";
 import "../styles/web_work.css";
 
-function WebWork({ projects }) {
+function ProjectContent({ projects }) {
   return (
     <>
       {projects.map((project, index) => (
-        <div className="web-project" key={index}>
+        <div className="project" key={index}>
           <img
             src={project.display_image}
             className="project-image"
@@ -39,7 +39,7 @@ function WebWork({ projects }) {
   );
 }
 
-WebWork.propTypes = {
+ProjectContent.propTypes = {
   projects: PropTypes.arrayOf(
     PropTypes.shape({
       display_image: PropTypes.string.isRequired,
@@ -51,4 +51,4 @@ WebWork.propTypes = {
   ).isRequired,
 };
 
-export default WebWork;
+export default ProjectContent;

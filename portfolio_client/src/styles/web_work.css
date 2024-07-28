@@ -1,4 +1,4 @@
-.web-project {
+.project {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -7,7 +7,7 @@
   position: relative;
 }
 
-.web-project:not(:last-child)::after {
+.project:not(:last-child)::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -17,7 +17,7 @@
   background-color: #f0f0f0;
 }
 
-.web-project .project-image {
+.project .project-image {
   height: 25%;
   width: 40%;
   border-radius: 20px;
