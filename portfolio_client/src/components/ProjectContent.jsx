@@ -1,4 +1,6 @@
 import PropTypes from "prop-types";
+import github from "../assets/icons/github.png";
+import web from "../assets/icons/website.png";
 import "../styles/projects.css";
 
 function ProjectContent({ projects }) {
@@ -6,34 +8,59 @@ function ProjectContent({ projects }) {
     <>
       {projects.map((project, index) => (
         <div className="project" key={index}>
-          <div className="image-container">
+          <div className="heading">
+            <h3 className="project-name">{project.name}</h3>
+          </div>
+          <div className="content">
             <img
               src={project.display_image}
               className="project-image"
               alt={project.name}
             ></img>
-          </div>
-          <div className="project-info">
-            <h3 className="project-name">{project.name}</h3>
-            <p className="project-description">{project.description}</p>
-            <a
-              href={project.github_link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-link repo-link"
-            >
-              <strong>View the code</strong>{" "}
-            </a>
-            {project.live_link && (
+            <div className="project-info">
+              <p className="project-description">{project.description}</p>
               <a
-                href={project.live_link}
+                href={project.github_link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="project-link live-link"
+                className="project-link repo-link"
               >
-                <strong>See the site live</strong>{" "}
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    alignItems: "center",
+                  }}
+                >
+                  <img src={github} className="image github-image"></img>
+                  <strong style={{ marginLeft: "10px" }}>
+                    View the code
+                  </strong>{" "}
+                </div>
               </a>
-            )}
+              {project.live_link && (
+                <a
+                  href={project.live_link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link live-link"
+                >
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "row",
+                      alignItems: "center",
+                      marginTop: "10px",
+                    }}
+                  >
+                    <img src={web} className="image web-image"></img>
+                    <strong style={{ marginLeft: "10px" }}>
+                      See the site live
+                    </strong>{" "}
+                  </div>
+                </a>
+              )}
+            </div>
           </div>
         </div>
       ))}

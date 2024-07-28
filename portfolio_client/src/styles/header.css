@@ -59,7 +59,8 @@
 }
 
 .image.github-image,
-.image.contact-image {
+.image.contact-image,
+.image.web-image {
   filter: invert(100%);
 }
 
