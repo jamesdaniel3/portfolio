@@ -1,6 +1,5 @@
 import ProjectContent from "../components/ProjectContent";
 import { web_projects } from "../components/ProjectConstants";
-import "../styles/web_work.css";
 
 export default function Web() {
   return (

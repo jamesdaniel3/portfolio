@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "../styles/web_work.css";
+import "../styles/projects.css";
 
 function ProjectContent({ projects }) {
   return (
