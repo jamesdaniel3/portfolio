@@ -1,11 +1,12 @@
 import ProjectContent from "../components/ProjectContent";
 import { web_projects } from "../components/ProjectConstants";
+import "../styles/web_work.css";
 
 export default function Web() {
   return (
     <>
       <div className="page-content web-page-content">
-        <p style={{ margin: "0" }}>
+        <p className="web-intro">
           {" "}
           I got my first experience with webdev in January of 2023, when I took
           a class called Advnaced Software Development where we spent the

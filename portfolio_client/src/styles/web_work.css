@@ -1,3 +1,7 @@
+/*********************************************     
+              PROJECTS CSS
+*********************************************/
+
 .project {
   display: flex;
   flex-direction: row;
@@ -43,4 +47,24 @@
 
 .project-info .project-link:hover {
   text-decoration: underline;
+}
+
+/*********************************************     
+              WEB PAGE CSS
+*********************************************/
+
+.web-intro {
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .project {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 25px 0;
+  }
+  .project .project-image {
+    width: 100%;
+  }
 }
