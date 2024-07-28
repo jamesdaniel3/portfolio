@@ -6,11 +6,13 @@ function ProjectContent({ projects }) {
     <>
       {projects.map((project, index) => (
         <div className="project" key={index}>
-          <img
-            src={project.display_image}
-            className="project-image"
-            alt={project.name}
-          ></img>
+          <div className="image-container">
+            <img
+              src={project.display_image}
+              className="project-image"
+              alt={project.name}
+            ></img>
+          </div>
           <div className="project-info">
             <h3 className="project-name">{project.name}</h3>
             <p className="project-description">{project.description}</p>

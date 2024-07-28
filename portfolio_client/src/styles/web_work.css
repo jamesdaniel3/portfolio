@@ -1,7 +1,3 @@
-/*********************************************     
-              PROJECTS CSS
-*********************************************/
-
 .project {
   display: flex;
   flex-direction: row;
@@ -21,9 +17,17 @@
   background-color: #f0f0f0;
 }
 
-.project .project-image {
-  height: 25%;
+.project .image-container {
+  display: flex;
+  height: 100%;
   width: 40%;
+  align-items: center;
+  justify-content: center;
+}
+
+.project .project-image {
+  height: 100%;
+  width: 100%;
   border-radius: 20px;
   object-fit: cover;
 }
@@ -48,7 +52,7 @@
     margin: 0 auto;
     padding: 25px 0;
   }
-  .project .project-image {
+  .project .image-container {
     width: 100%;
   }
 }
