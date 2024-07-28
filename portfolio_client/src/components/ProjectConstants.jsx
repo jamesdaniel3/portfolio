@@ -2,6 +2,7 @@ import spotifySocialImage from "../assets/project_previews/spotify_socal.png";
 import hazingReportImage from "../assets/project_previews/hazing_reporter.png";
 import dataParserImage from "../assets/project_previews/oh_data_parser.png";
 import searingChartGeneratorImage from "../assets/project_previews/seating_chart_generator.png";
+import programmingLanguageImage from "../assets/project_previews/programming_language.png";
 
 export const web_projects = [
   {
@@ -39,5 +40,16 @@ export const cli_projects = [
       "This project was created to fufill our need for fresh seating charts every week in labs. It was built to be able to run with many of the different room configurations in the Computer Science department and can easily have more added. I have included test data in this Github Repository, so you should be able to test out the project yourself!",
     github_link: "https://github.com/jamesdaniel3/seating-chart-generator",
     display_image: searingChartGeneratorImage,
+  },
+];
+
+export const in_the_works_projects = [
+  {
+    id: "programming_language",
+    name: "My First Programming Language",
+    description:
+      "The project at the top of my programming bucket list for the last year or so has been to one day make my own programming language. One thing that was preventing me from getting started was the idea that I couldn't find a particular niche that I thought needed satisfying, leaving me without a reason to built a language. However, I realized that I will need to be practiced when I do finally find a niche for my future programming language, so I am making my first attempt now. This language is a simple, interpreted language built with C. My current, arbitrary goal is to build enough functionality that I could write merge sort in it.",
+    github_link: "https://github.com/jamesdaniel3/my-first-language",
+    display_image: programmingLanguageImage,
   },
 ];
