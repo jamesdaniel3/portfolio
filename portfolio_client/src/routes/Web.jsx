@@ -1,4 +1,5 @@
 import WebWork from "../components/WebWork";
+import { web_projects } from "../components/project_constants";
 
 export default function Web() {
   return (
@@ -13,7 +14,7 @@ export default function Web() {
           AWS, Render), and languages(JS, TS, Python, Ruby). Below are a couple
           examples of those experiments.
         </p>
-        <WebWork />
+        <WebWork projects={web_projects} />
       </div>
     </>
   );
