@@ -51,6 +51,12 @@
   text-decoration: underline;
 }
 
+@media (max-width: 1200px) {
+  .project .project-image {
+    object-fit: fill;
+  }
+}
+
 @media (max-width: 800px) {
   .project {
     margin: 0 auto;
