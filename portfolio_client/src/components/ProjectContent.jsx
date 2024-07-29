@@ -32,10 +32,12 @@ function ProjectContent({ projects }) {
                     alignItems: "center",
                   }}
                 >
-                  <img src={github} className="image github-image"></img>
-                  <strong style={{ marginLeft: "10px" }}>
-                    View the code
-                  </strong>{" "}
+                  <img
+                    src={github}
+                    className="image github-image"
+                    style={{ margin: "0" }}
+                  ></img>
+                  <strong style={{ marginLeft: "10px" }}>View the code</strong>{" "}
                 </div>
               </a>
               {project.live_link && (
@@ -53,7 +55,11 @@ function ProjectContent({ projects }) {
                       marginTop: "10px",
                     }}
                   >
-                    <img src={web} className="image web-image"></img>
+                    <img
+                      src={web}
+                      className="image web-image"
+                      style={{ margin: "0" }}
+                    ></img>
                     <strong style={{ marginLeft: "10px" }}>
                       See the site live
                     </strong>{" "}
