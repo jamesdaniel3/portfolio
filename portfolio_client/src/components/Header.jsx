@@ -18,8 +18,8 @@ export function Header() {
           <Link className="navbar-link" to={"/cli"}>
             <span>CLI</span>
           </Link>
-          <Link className="navbar-link" to={"/upcoming"}>
-            <span>In-the-works</span>
+          <Link className="navbar-link" to={"/more"}>
+            <span>More</span>
           </Link>
         </div>
         <div className={"header-section header-title"}>
