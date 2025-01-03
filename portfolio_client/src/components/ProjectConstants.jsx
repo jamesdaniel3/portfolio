@@ -2,7 +2,8 @@ import spotifySocialImage from "../assets/project_previews/spotify_socal.png";
 import hazingReportImage from "../assets/project_previews/hazing_reporter.png";
 import dataParserImage from "../assets/project_previews/oh_data_parser.png";
 import searingChartGeneratorImage from "../assets/project_previews/seating_chart_generator.png";
-import programmingLanguageImage from "../assets/project_previews/programming_language.png";
+import compilerImage from "../assets/project_previews/compiler_image.png";
+import toyHttpImage from "../assets/project_previews/toy_http.png";
 
 export const web_projects = [
   {
@@ -45,11 +46,19 @@ export const cli_projects = [
 
 export const in_the_works_projects = [
   {
-    id: "programming_language",
-    name: "My First Programming Language",
+    id: "compiler",
+    name: "SIP Compiler",
     description:
-      "The project at the top of my programming bucket list for the last year or so has been to one day make my own programming language. One thing that was preventing me from getting started was the idea that I couldn't find a particular niche that I thought needed satisfying, leaving me without a reason to build a language. However, I realized that I will need to be practiced when I do finally find a niche for my future programming language, so I am making my first attempt now. This language is a simple, interpreted language built with C. My  goal is to build enough functionality that I can write merge sort in it.",
-    github_link: "https://github.com/jamesdaniel3/my-first-language",
-    display_image: programmingLanguageImage,
+      "Last semester, as a part of my favorite programming class of all time, myself and a partner built a compiler for a small language called Simple Imperative Langauge. We worked through all the stages of modern compilers, from creating a grammar to adding optimization passes, and finished with a compiler that can fully support the langauge that we were targeting. We started off with a working compiler for a much smaller language called Tiny Imperative Language and added the following: booleans, boolean operators, >, >=, <=, arrays, for loops, ternary operators, and the modulo operator. ",
+    github_link: "https://github.com/jamesdaniel3/sipc-daniel_opperman",
+    display_image: compilerImage,
+  },
+  {
+    id: "toy_http",
+    name: "Toy HTTP",
+    description:
+      "The newest project I am working on is rolling my own HTTP server using C. I am working through this in an effort to gain a better understanding of how exactly HTTP protocol works and how servers work and writing the project in C to gain more practive with the langauge and to work at a more granular level than other languages may provide. This project has already taught me a ton about how servers and HTTP works and forced me to think through these concepts in ways that I had not previously. ",
+    github_link: "https://github.com/jamesdaniel3/toy-http",
+    display_image: toyHttpImage,
   },
 ];

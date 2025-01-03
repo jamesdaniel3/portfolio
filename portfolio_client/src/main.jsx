@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./routes/Home.jsx";
 import Web from "./routes/Web.jsx";
 import CLI from "./routes/CLI.jsx";
-import Progress from "./routes/Progress.jsx";
+import More from "./routes/More.jsx";
 
 import "../src/styles/common.css";
 import { Header } from "./components/Header.jsx";
@@ -18,7 +18,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/web" element={<Web />} />
         <Route path="/cli" element={<CLI />} />
-        <Route path="/upcoming" element={<Progress />} />
+        <Route path="/more" element={<More />} />
       </Routes>
     </>
   );
