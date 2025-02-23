@@ -109,10 +109,10 @@ export function MobileHeader() {
             </Link>
             <Link
               className="navbar-link"
-              to={"/upcoming"}
+              to={"/more"}
               onClick={() => setHidden("hidden")}
             >
-              <span>In-the-works</span>
+              <span>More</span>
             </Link>
           </div>
           <div className="mobile-header-section social-links">
